@@ -7,3 +7,8 @@ function fearNotLetter(str) {
    return undefined;   
 }
 fearNotLetter("abcdeg"); // return "f"
+
+
+
+
+// Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/missing-letters/
