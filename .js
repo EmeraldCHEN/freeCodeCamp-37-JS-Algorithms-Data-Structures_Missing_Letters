@@ -2,8 +2,8 @@
 
 function fearNotLetter(str) {
    for(let i = 0; i < str.length-1; i++){
-      if(str.charCodeAt(i+1) - str.charCodeAt(i) !== 1){
-         return String.fromCharCode(str.charCodeAt(i+1) - 1); // Return the missing character 
+      if(str.charCodeAt(i+1) - str.charCodeAt(i) !== 1){// Also could check if the difference in char codes between adjacent characters in str is more than 1
+         return String.fromCharCode(str.charCodeAt(i+1) - 1); // Return the missing character( -1 from where the gap was detected)
       }
    }   
    return undefined;   
